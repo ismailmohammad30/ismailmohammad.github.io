@@ -59,11 +59,11 @@ nav ul li a:hover{
 }
 #left{
     float: left;
-    width: 600px;
+    width: 400px;
 }
 #right{
     float: right;
-    width: 350px;
+    width: 175px;
 }
 #powercoders{
     width: 600px;
