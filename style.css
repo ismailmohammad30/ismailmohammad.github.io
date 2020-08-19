@@ -1,118 +1,197 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    display: block;
+}
+#small{
+    font-size: 0px;
+}
+body{
+    background-color: lightsteelblue;
+   
+}
+a{
+    text-decoration:none;
+
+}
+#center{
+    width:1000px;
+    margin: auto;
 }
 header{
-    height: 100px;
-    width: 100%;
-    background-image: linear-gradient(to right, rgb(24, 13, 13) ,silver);
-}
-#logobox{
-    width: 30%;
-    height: 100%;
-    float: left;
-}
-#h1header{
-    color: lavender;
-    margin: 0em;
-    font-size: 70px;
-    font-family: monospace;
-    
+    height: 70px;
+    width: 1250px;
+    background-color:whitesmoke;
+    border-bottom:1px solid #ccc;
+    /*margin-left: 0em;
+    margin-right: auto;*/
 
-    
 }
 #logo{
-    margin: 2em;
+    width: 31%;
+    float: left;
+    margin: 0em;
     height: 100%;
     border-radius: 50%;
+}
+#title{
+    text-align: right;
+    font-size:40px;
+    padding:20px 0px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
     float: left;
-}
-#first{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
-    float: right;
-}
-.ad{
-    padding: 1em;
-    margin: 0 auto;
-    text-align: center;
-
-}
-.as{
-    text-align:center;
-    padding: 1em;
-    margin: 10px 20px 30px 40px ;
-    font-size: 30px;
-}
-#pic2{
-    padding: 0em;
-    margin: 2em;
-    height:40%;
-    width:24%;
-    border-radius: 60%;
-    float: left;
-}
-.ab{
-    padding: 1em;
-    margin: 1em;
-    text-align:right;
-
-}
-.hr{
-    margin: 5em;
-}
-#pic3{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
-    float: right;
-}
-#pic4{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
-    float: left;
-}
-#pic5{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
-    float: right;
-
-}
-#pic6{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
-    float: left;
-}
-#pic7{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
-    float: right;
-
     
 }
-#pic8{
-    padding: 0em;
-    margin: 2em;
-    height: 40%;
-    width: 24%;
-    border-radius: 50%;
+nav ul li{
+    float: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    padding: 40px 100px;
+}
+nav ul li a:hover{
+    border-bottom:3px solid black;
+}
+#content{
+    margin: 40px;
+}
+#left{
+    float: left;
+    width: 600px;
+}
+#right{
+    float: right;
+    width: 350px;
+}
+#powercoders{
+    width: 600px;
+    height:350px;
+    border: 1px solid black;
+}
+#left1{
+    margin-top: 30px;
+}
+#day{
+    border: 1px solid whitesmoke;
+    margin-bottom: 20px;
+    border-radius: 4px;
+
+}
+#day img{
+ margin: 10px 0px 0px 5px;
+width:200px;
+height: 200px;
+border: 1px solid white;
+border-radius: 20px;
+float: left;
+
+}
+#day h3{
+    font-size: 16px;
+    margin: 20px 10px 20px 250px;
+    
+}
+#day p{
+    margin: 20px 10px 20px 250px;
+    
+}
+#daily{
+    background-color: whitesmoke;
+    padding-top: 0px;
+    width: 380px;
+    height: 290px;
+    overflow: auto;
+
+}
+#title1{
+    background-color: wheat;
+    font-size: 25px;
+    border:1px solid black;
+    margin-bottom: 20px;
+}
+#daily ul li{
+    margin: 1px 5px 5px 0px;
+    
+}
+#daily ul li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: 1px solid black;
+    float: left;
+    margin: 3px 0px 0px 3px;
+}
+#daily ul li h2 a {
+    font-size: 20px;
+    margin: 20px 10px 20px 150px;
+}
+#daily ul li span{
+    font-size: 15px;
+    color: rgb(5, 4, 3);
+    margin: 20px 10px 20px 300px;
+}
+footer{
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin: 1px;
+    padding: 1px;
+    float:center;
+}
+.footer-title{
+    font-size: 30px;
+    color: linen;
+}
+#About{
+    float: right;
+    width: 350px;
+    margin-left: 30px;
+    color:black;
+    padding: 1px;
+}
+#contact{
+    float: right;
+    width:350px;
+    margin-left: 30px;
+    margin-bottom:0px;
+    padding: 1px;
+}
+#img{
+    margin-left:1px;
+    margin-bottom: 30px;
     float: left;
 }
 }
+.two{
+    float: right;
+    margin-right: 160px;
+    margin-bottom: 0px;
+    
+}
+#note{
+    border: 1px solid whitesmoke;
+    margin-top: 93px;
+    border-radius: 4px;
+
+}
+#note img {
+    margin: 10px 0px 0px 1px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    float: left;
+    
+}
+#note h3 {
+    font-size: 30px;
+    margin: 20px 10px 20px 170px;
+}
+#note p {
+    font-size: 16px;
+    margin: 20px 10px 80px 160px;
+
+}
+ 
