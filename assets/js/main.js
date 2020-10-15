@@ -59,3 +59,10 @@
 	});
 
 })(jQuery);
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://api.countapi.xyz/hit/ismailmohammad30.github.io/visits");
+xhr.responseType = "json";
+xhr.onload = function() {
+    console.log(this.response.value) 
+}
+xhr.send();
